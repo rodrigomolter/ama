@@ -24,7 +24,13 @@ Make a copy of the `env.template` file and rename it to `.env`
 Change the variables inside `.env` with the credentials of your database
 
 ### Installation 🏗️
-To install the dev dependencies, run `npm install` (or `npm i` for short.)
+To install the dev dependencies, run 
+```sh
+`npm install -f
+```
+> [!NOTE]  
+> I'm using [React 19](https://react.dev/blog/2024/04/25/react-19) on this project.
+> You need to use `-f` to force install because some of dependecies require React 18 and will give some warnings.
 
 And run the App with 
 ```sh
