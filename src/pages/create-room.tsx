@@ -19,7 +19,7 @@ export function CreateRoom(){
       const { roomId } = await createRoom({ theme })
       navigate(`/room/${roomId}`)
     } catch {
-      toast.error("Oops, parece que houve um erro ao criar a sala! Tente novemente mais tarde")
+      toast.error("Oops, parece que houve um erro ao criar a sala! Tente novemente mais tarde.")
     }
 
   }
